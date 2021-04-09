@@ -1,0 +1,64 @@
+/*About me section */
+
+.about_me{
+ margin-top: 45px;
+}
+.about-me-description{
+ margin: 0 auto;
+ padding: 2em 2em;
+ margin-bottom: 3em;
+ text-align: center;
+ border-bottom:white 2px solid;
+ 
+}
+#color-white, .fas, .heading-skill,p{
+ color: #1F2833;
+}
+
+
+/*skill section*/
+.capability-wrapper{
+ display: flex;
+}
+.technical-skills-items-wrapper{
+ width: 50%;
+ text-align: center;
+}
+
+.other-skill{
+ width: 50%;
+ text-align: center;
+}
+.fas{
+ font-size: 70px;
+ margin-bottom: 10px;
+}
+.capability-wrapper{
+ margin-bottom: 30px;
+ align-items: center;
+}
+.section-containe{
+ border-bottom: white 2px solid;
+}
+
+.last-section{
+ margin-top:35px;
+}
+.last-section{
+ display: flex;
+}
+
+@media screen and (max-width:430px){
+ .last-section, .capability-wrapper{
+  flex-direction: column-reverse;
+  align-items: center;
+
+ }
+ .technical-skills-items-wrapper, #two{
+  border-bottom:white 2px solid;
+  padding-bottom: 10px;
+ }
+ .other-skill, #one{
+  padding-top: 10px;
+ }
+}
